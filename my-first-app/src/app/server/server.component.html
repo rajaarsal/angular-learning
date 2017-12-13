@@ -1,1 +1,7 @@
-<p>Server Id is {{ serverId }} and {{ getServerStatus() }}</p>
+<h2>Server name</h2>
+<input type="text" [(ngModel)]="serverName" (input)="serverStatusText()"/>
+<button class="btn btn-default" [disabled]="serverName === ''" (click)="createServer()">Add server</button>
+
+<p *ngIf="displayServer">Server status is {{ serverName }}</p>
+
+<p [ngStyle]="{backgroundColor: getColor()}" [ngClass]="{online: serverStatus === 'Online'}">Sever with ID {{ serverId }} is {{ serverStatus }}</p>
