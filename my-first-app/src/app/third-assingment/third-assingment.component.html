@@ -1,5 +1,5 @@
 <button class="btn btn-primary" (click) = "toggleText()">Display Details</button>
 <p *ngIf="showText">This is assingment three</p>
-<div [ngStyle]="{backgroundColor : getColor()}" *ngFor="let count of counts">Clicks: {{count}}</div>
+<!-- <div [ngStyle]="{backgroundColor : getColor()}" *ngFor="let count of counts">Clicks: {{count}}</div> -->
 
-<!-- <div [ngStyle]="{backgroundColor : count >= 5 ? 'blue' : white}"  [ngClass]="{'white-txt': count >= 5}" *ngFor="let count of counts">Clicks: {{count}}</div> -->
+<div [ngStyle]="{backgroundColor : count >= 5 ? 'blue' : white}"  [ngClass]="{'white-txt': count >= 5}" *ngFor="let count of counts">Clicks: {{count}}</div>
