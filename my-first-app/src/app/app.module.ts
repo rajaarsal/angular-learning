@@ -8,6 +8,7 @@ import { ServersComponent } from './servers/servers.component';
 import { WarningalertComponent} from './warningalert/warning-alert.compentnt';
 import { SuccessalertComponent } from './successalert/successalert.component';
 import { SenconassingmentComponent } from './senconassingment/senconassingment.component';
+import { ThirdAssingmentComponent } from './third-assingment/third-assingment.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { SenconassingmentComponent } from './senconassingment/senconassingment.c
     WarningalertComponent,
     SuccessalertComponent,
     SenconassingmentComponent,
+    ThirdAssingmentComponent,
   ],
   imports: [
     BrowserModule,
