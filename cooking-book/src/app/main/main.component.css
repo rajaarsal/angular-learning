@@ -1,0 +1,13 @@
+.main-container {
+    border: 1px solid orange;
+}
+
+.header {
+    background: orange;
+    color: #fff;
+    padding: 10px;
+}
+
+.header h2 {
+    margin: 0;
+}
